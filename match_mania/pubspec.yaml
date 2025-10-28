@@ -1,0 +1,30 @@
+name: match_mania
+description: A simple Flutter demo that reproduces a title screen like 'Sign Quest'.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.2
+  confetti: ^0.7.0
+  audioplayers: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/home.png
+    - assets/images/start.png
+    - assets/images/htp.png
+    - assets/images/quit.png
+    - assets/images/restart.png
+    - assets/images/how.png
+    - assets/images/x.png
+    - assets/music/bgm.mp3
